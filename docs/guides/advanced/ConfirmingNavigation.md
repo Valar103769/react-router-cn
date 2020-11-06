@@ -4,6 +4,7 @@ React Router 提供一个 [`routerWillLeave` 生命周期钩子](/docs/Glossary.
 
 1. `return false` 取消此次跳转
 2. `return` 返回提示信息，在离开 route 前提示用户进行确认。
+3. `return true`跳转
 
 你可以在 [route 组件](/docs/Glossary.md#routecomponent) 中引入 `Lifecycle` mixin 来安装这个钩子。
 
